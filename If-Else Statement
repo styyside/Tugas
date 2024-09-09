@@ -1,0 +1,21 @@
+//bikin predikat alfabet berdasarkan nilai//
+
+#include <stdio.h>
+
+int main(){
+int nilai;
+
+    printf ("Masukan Nilai =");
+    scanf ("%d", &nilai);
+
+    if (nilai > 91){
+        printf("Predikat A");}
+    else if (nilai > 81){
+        printf("Predikat B");}
+    else if (nilai > 71){
+        printf("Predikat C");}
+    else {
+        printf("Predikat F");}
+
+return 0;
+}
